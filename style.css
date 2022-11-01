@@ -7,7 +7,7 @@
     list-style: none;
 }
 :root{
-    --var1:purple;
+    --var1:green;
     --var2:rgb(6, 47, 6);
     --var3:#eee;
     --var4:black;
@@ -50,6 +50,7 @@ div{
     width: 90%;
     border-radius: 8px;
     padding: 2px;
+    margin: 10px;
 }
 img{
     width: 100%;
