@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --var1:purple;
+    --var2:rgb(6, 47, 6);
+    --var3:#eee;
+    --var4:black;
+}
+header{
+font-weight: bold;
+text-align: center;
+padding: 30px;
+color: var(--var3);
+background-color: var(--var1);
+border-bottom: 3px solid var(--var2);
+}
+main{
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    background-color: var(--var3);
+}
+#conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: auto;
+    border: none;
+}
+#conteiner1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: auto;
+    border: none;
+    margin-top: 50px;
+}
+div{
+    border: 2px solid var(--var1);
+    width: 90%;
+    border-radius: 8px;
+    padding: 2px;
+}
+img{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+#p1{
+    border-left: 10px solid var(--var1);
+    background-color: rgba(0, 0, 255, 0.29);
+    padding: 10px;
+}
+p{
+    margin: 5px;
+}
+#bnt{
+    border: 1px solid var(--var2);
+    text-align: center;
+    padding: 10px;
+    background-color: var(--var1);
+    cursor: pointer;
+}
+a{
+    color: var(--var3);
+    font-weight: bold;
+}
+#bnt:hover{
+    background-color: var(--var2);
+    transition: all 3s;
+}
+
+footer{
+font-weight: bold;
+text-align: center;
+padding: 80px;
+color: var(--var3);
+background-color: var(--var1);
+border-top: 3px solid var(--var2);
+
+}
+@media (max-width:700px) {
+    #conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        margin: auto;
+        border: none;
+    }
+    #conteiner1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        margin: auto;
+        border: none;
+    }
+    div{
+        width: 100%;
+    }
+    main{
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    
+}
