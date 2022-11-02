@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --var1:rgb(155, 11, 155);
+    --var2:rgb(6, 47, 6);
+    --var3:#eee;
+    --var4:black;
+}
+header{
+font-weight: bold;
+text-align: center;
+padding: 30px;
+color: var(--var3);
+background-color: var(--var1);
+border-bottom: 3px solid var(--var2);
+}
+main{
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    background-color: var(--var3);
+}
+#conteiner{
+   width: 100%;
+   text-align: center;
+   background-color: var(--var3);
+}
+div{
+   /* border: 2px solid var(--var1);*/
+    width: 50%;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+img{
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+}
+
+#p1{
+    border-left: 10px solid var(--var1);
+    background-color: rgba(0, 0, 255, 0.29);
+    padding: 10px;
+}
+p{
+    margin: 5px;
+}
+#bnt{
+    border: 1px solid var(--var2);
+    text-align: center;
+    padding: 10px;
+    background-color: #027826;
+    cursor: pointer;
+    margin: 20px 0;
+}
+a{
+    color: var(--var3);
+    font-weight: bold;
+}
+#bnt:hover{
+    background-color: var(--var2);
+    transition: all 3s;
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
+footer{
+font-weight: bold;
+text-align: center;
+padding: 80px;
+color: var(--var3);
+background-color: var(--var1);
+border-top: 3px solid var(--var2);
+
+}
+#foo{
+    text-align: center;
+}
+@media (max-width:700px) {
+    main{
+        padding: 0;
+        background-color: #eee;
+    }
+    #conteiner{
+        padding: 5px;
+    }
+    div{
+        padding: 5px;
+        width: 96%;
+    }
+    header{
+        margin-bottom: 10px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TITULO</h1>
+    </header>
+    <main>
+        <section>
+            <div id="conteiner">
+            <div>
+                <img src="img 1.jpg" alt="foto">
+                <p id="p1">Prata 925</p>
+                <p id="p2">Esse produto é muito bom por que..</p>
+                <strong><p id="p3">R$  200,00</p></strong>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt repellat reprehenderit labore, deleniti sit ullam consectetur. Excepturi dolorum doloremque distinctio. Voluptatum nostrum optio exercitationem totam architecto dolorem iure tempora. Accusantium!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem qui in explicabo voluptas aut commodi distinctio ipsam dignissimos numquam, facilis vero repudiandae, saepe at nostrum enim, debitis illo culpa nulla?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed sunt sint quas ducimus officia non voluptate expedita, id sapiente mollitia ea debitis minima ratione molestiae quae incidunt ab laudantium quisquam.
+                </p>
+                <p id="bnt"><a href="https://api.whatsapp.com/send?phone=5562994472878&text=Ol%C3%A1%20!!">Wathsapp</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="foo">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+    </footer>
+    
+</body>
+</html>
